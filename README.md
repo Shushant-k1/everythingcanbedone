@@ -1,10 +1,18 @@
-- 👋 Hi, I’m @everythingcanbedone
-- 👀 I’m interested in python nd machine learning
-- 🌱 I’m currently learning machine learning
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me 
+class WhoAmI(DataScienceEnthusiast):
 
-<!---
-everythingcanbedone/everythingcanbedone is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    ''' About myself '''
+    
+    def __init__(self):
+    
+        super(WhoAmI, self).__init__()
+        self.user = "Shushant Kumar"
+        self.edu_status = "Pursuing B.Tech in CSE(AIML)."
+        self.edu_institution = " Technocrats Institute of Technology, Bhopal."
+  
+        self.passion = [
+            "Competative Programming",
+            "Explore Data",
+            "Helping others to get started",
+            "Data Science Hackathons",
+            "Applied Artificial Intelligence"
+          ]
